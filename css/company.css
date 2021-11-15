@@ -1,0 +1,27 @@
+.company__table,
+.company__table th,
+.company__table td {
+  border-collapse: collapse;
+  border: none;
+}
+
+.company__table {
+  width: 100%;
+}
+
+.company__table tr {
+  border-bottom: 1px solid #222222;
+}
+
+.company__table tr:first-child {
+  border-top: 1px solid #222222;
+}
+
+.company__table th,
+.company__table td {
+  padding: 25px 0;
+}
+
+.company__table th {
+  font-weight: bold;
+}

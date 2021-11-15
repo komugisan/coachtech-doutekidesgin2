@@ -1,0 +1,44 @@
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  font-size: 17px;
+}
+
+.contact__label {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.contact__label span {
+  color: #cd0224;
+  margin-left: 5px;
+}
+
+.contact__form input {
+  margin-bottom: 15px;
+  height: 25px;
+}
+
+.contact__form textarea {
+}
+
+.contact__form .contact__submit {
+  background-color: #222222;
+  color: #ffffff;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__form .contact__submit {
+    width: 50%;
+  }
+}

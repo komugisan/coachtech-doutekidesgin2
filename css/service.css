@@ -1,0 +1,40 @@
+.service__list {
+  display: flex;
+  padding: 20px 0;
+  border-bottom: 1px solid #222222;
+}
+
+.service__list:first-child {
+  border-top: 1px solid #222222;
+}
+
+.service__list__img {
+  width: 290px;
+  margin-right: 40px;
+}
+
+.service__list__img img {
+  width: 100%;
+}
+
+.service__list__h2 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px 0;
+}
+
+.service__list__p {
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .service__list {
+    display: block;
+  }
+  .service__list__img {
+    width: 99%;
+  }
+  .service__list__p {
+    line-height: 1.5em;
+  }
+}
